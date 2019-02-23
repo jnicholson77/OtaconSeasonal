@@ -15,7 +15,38 @@ h1 a{
 nav{
   text-align: center;
 }
+h3{
+  border: 2px solid white;
+}
 nav a{
   text-decoration: none;
   color: white;
+}
+img{
+  width:80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+audio{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article{
+  margin-top: 6em;
+}
+.top{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  font-size: 20pt;
+  font-weight: bold;
+}
+#about{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
 }
