@@ -6,21 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="homepage of the otacon website"/>
     <link rel="stylesheet" type="text/css" href="otacon.css"/>
+    <script src="otacon.js"></script>
   </head>
-  <body>
+  <body onload="playAudio()">
     <h1><a href="index.html">Otacon's Seasonal Favorites</a></h1>
     <nav>
-      <a href="otaconabout.html">About</a> &nbsp &nbsp &nbsp
-      <a href="otaconalltime.html">All-Time Favorites</a> &nbsp &nbsp &nbsp
-      <a href="otaconseasonal.html">Seasonal Picks</a> &nbsp &nbsp &nbsp
-      <a href="otaconfuture.html">Anime To Watch For</a> &nbsp &nbsp &nbsp
-      <a href="otaconforum.html">Forum</a> &nbsp &nbsp &nbsp
+      <a href="otaconabout.html">About</a> &nbsp
+      <a href="otaconalltime.html">All-Time Favorites</a> &nbsp
+      <a href="otaconseasonal.html">Seasonal Picks</a> &nbsp
+      <a href="otaconvideos.html">Videos of Favorite Anime</a> &nbsp
+      <a href="otaconforum.php">Forum</a> &nbsp
     </nav>
     <main class="top">
       <p>Hello everyone, it's me Otacon! Click on one of the tabs above to dive head first into my favorite topic, anime!</p>
       <p> <img src="otaconmain.png"/></p>
-      <p><audio src="MetalGearSolidMainTheme.mp3" controls="controls"></audio></p>
-      <article id="videoframe">
+         <iframe src="silence.mp3" allow="autoplay" style="display:none" id="audio"></iframe>
+         <audio id="player"><source src="MetalGearSolidMainTheme.mp3" type="audio/mp3"></audio>
+         <button onclick="pauseAudio()" id="playerButton">Stop Music</button>
+      </p>
       <center><iframe width="700" height="400" src="https://www.youtube.com/embed/10I9Jhl_9S4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
     </article>
     </main>

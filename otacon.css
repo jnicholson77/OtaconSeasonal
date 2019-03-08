@@ -17,13 +17,14 @@ nav{
 }
 h3{
   border: 2px solid white;
+  text-align: center;
 }
 nav a{
   text-decoration: none;
   color: white;
 }
 img{
-  width:80%;
+  width:100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,17 +37,80 @@ audio{
 article{
   margin-top: 6em;
 }
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+form{
+  text-align: center;
+  margin-top: 5em;
+}
 .top{
+  text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3em;
+  margin-top: 1em;
   font-size: 20pt;
   font-weight: bold;
+}
+.alltimebottom{
+  margin-top: 3em;
 }
 #about{
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5em;
+}
+#txtUsername{
+  text-align: center;
+}
+#forumTop{
+  margin-top: 3em;
+}
+#videoframe{
+  display: block;
+  margin-top: -10px
+}
+#otaconthumbs{
+  height:350px;
+  width:350px;
+}
+#steinsgate{
+  height: 250px;
+  width: 350px;
+}
+#clannad{
+  height: 250px;
+  width: 350px;
+}
+#bake{
+  height: 450px;
+  width: 350px;
+}
+#dororo{
+  height:450px;
+  width: 350px;
+}
+#mob{
+  height:450px;
+  width: 350px;
+}
+#love{
+  height:450px;
+  width: 350px;
+}
+#promised{
+  height:450px;
+  width: 350px;
+}
+#rising{
+  height:450px;
+  width: 350px;
+}
+#playerButton{
+  margin-top: -200em;
 }
